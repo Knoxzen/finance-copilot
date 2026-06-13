@@ -1,0 +1,45 @@
+epics:
+  - name: "USER SERVICE"
+    tasks:
+      - title: "Create Spring Boot Project"
+        labels: [backend]
+      - title: "Setup PostgreSQL"
+        labels: [database]
+      - title: "Setup Docker Compose"
+        labels: [devops]
+      - title: "Setup Flyway"
+        labels: [database]
+      - title: "Design User Entity"
+        labels: [backend]
+      - title: "Design Refresh Token Entity"
+        labels: [backend, security]
+      - title: "Implement Register API"
+        labels: [backend]
+      - title: "Implement Login API"
+        labels: [backend, security]
+      - title: "Implement JWT Service"
+        labels: [security]
+      - title: "Implement Refresh Token Flow"
+        labels: [security]
+      - title: "Implement Logout API"
+        labels: [security]
+      - title: "Swagger Documentation"
+        labels: [documentation]
+      - title: "Unit Tests"
+        labels: [testing]
+      - title: "Integration Tests"
+        labels: [testing]
+      - title: "GitHub Actions CI"
+        labels: [devops]
+  - name: "API GATEWAY"
+    tasks: []
+  - name: "TRANSACTION SERVICE"
+    tasks: []
+  - name: "ANALYTICS SERVICE"
+    tasks: []
+  - name: "AI SERVICE"
+    tasks: []
+  - name: "OBSERVABILITY"
+    tasks: []
+  - name: "DEPLOYMENT"
+    tasks: []

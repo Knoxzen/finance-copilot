@@ -1,0 +1,24 @@
+epic:
+  name: "PAYMENT SERVICE"
+  description: "Microservice responsible for handling transactions, Stripe integrations, and processing invoices."
+  tasks:
+    - title: "Create Spring Boot Project for Payment Service"
+      labels: [backend]
+    - title: "Setup PostgreSQL Database and Schema"
+      labels: [database]
+    - title: "Configure Flyway Migrations for Payment Schema"
+      labels: [database]
+    - title: "Integrate Stripe SDK and Configure API Keys"
+      labels: [backend, security]
+    - title: "Implement Payment Checkout API"
+      labels: [backend]
+    - title: "Implement Stripe Webhook Listener"
+      labels: [backend, security]
+    - title: "Setup Docker and Compose for Payment Service"
+      labels: [devops]
+    - title: "Write JUnit and Mockito Tests for Checkout Service"
+      labels: [testing]
+    - title: "Write Integration Tests for Payment API"
+      labels: [testing]
+    - title: "Document Payment Endpoints with Swagger"
+      labels: [documentation]

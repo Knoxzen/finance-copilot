@@ -1,0 +1,22 @@
+epic:
+  name: "NOTIFICATION SERVICE"
+  description: "Microservice responsible for dispatching email and SMS alerts for transactions and system notifications."
+  tasks:
+    - title: "Create Spring Boot Project for Notification Service"
+      labels: [backend]
+    - title: "Configure Kafka Listener for Transaction Events"
+      labels: [backend]
+    - title: "Integrate SMTP Email Sender Configuration"
+      labels: [backend]
+    - title: "Integrate Twilio SMS API Client"
+      labels: [backend, security]
+    - title: "Design Notification Templates (HTML/Text)"
+      labels: [backend, documentation]
+    - title: "Setup Docker and Compose for Notification Service"
+      labels: [devops]
+    - title: "Write Kafka Listener Integration Tests"
+      labels: [testing]
+    - title: "Write Unit Tests for Template Engines"
+      labels: [testing]
+    - title: "GitHub Actions CI/CD for Notification Service"
+      labels: [devops]

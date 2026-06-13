@@ -1,0 +1,40 @@
+labels:
+  - name: backend
+    color: 1D76DB
+    description: Backend development tasks
+  - name: frontend
+    color: 5319E7
+    description: Frontend development tasks
+  - name: database
+    color: 0E8A16
+    description: Database configuration and migrations
+  - name: security
+    color: B60205
+    description: Security, authentication, and authorization
+  - name: devops
+    color: FBCA04
+    description: CI/CD pipelines, Docker, and infrastructure
+  - name: ai
+    color: C5DEF5
+    description: Artificial intelligence and Gemini integration
+  - name: documentation
+    color: 0075CA
+    description: Project documentation and swagger docs
+  - name: testing
+    color: F9D0C4
+    description: Unit, integration, and performance testing
+  - name: bug
+    color: D73A4A
+    description: Something isn't working
+  - name: enhancement
+    color: A2EEEF
+    description: New feature or request
+  - name: high-priority
+    color: D93F0B
+    description: Critical priority task
+  - name: medium-priority
+    color: FBCA04
+    description: Medium priority task
+  - name: low-priority
+    color: 0E8A16
+    description: Low priority task
