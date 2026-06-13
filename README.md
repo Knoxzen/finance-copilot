@@ -27,7 +27,7 @@ The project is being built as a production-grade engineering portfolio focused o
 ## Architecture
 
 ```text
-Frontend (Angular)
+Frontend (React)
         │
         ▼
 API Gateway
